@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:srcCompat="@mipmap/pokes"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incineroar"
+                android:textColor="#0096C7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/informacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFO"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ataque1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ataque 1:"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ataque2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ataque 2:"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ataque3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ataque 3:"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ataque4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ataque 4:"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/HabilidadSecreta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Habilidad Secreta"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Naturaleza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Naturaleza"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/itemequipado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/IV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IV"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/secreto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secreto"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
